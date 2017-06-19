@@ -1,0 +1,15 @@
+{
+	"name" : "NodeTest",
+	"version" : "0.0.1",
+	"description" : "Node test",
+	"author" : "Nadine Malinowski",
+	"main" : "NodeTest.js",
+	"scripts" : {
+		"start" : "node NodeTest.js"
+	},
+	"engines" : {
+		"node" : "6.10.3"
+	},
+	"dependencies" : {
+	}
+}
