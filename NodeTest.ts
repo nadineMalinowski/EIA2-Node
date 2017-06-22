@@ -9,7 +9,7 @@ interface Parameters {
 let server: http.Server = http.createServer();
     server.addListener("listening", onListen);
     server.addListener("request", handleRequest);
-    server.listen(process.env.port || 8100);
+    server.listen(process.env.PORT || 8100);
 
 function onListen(): void {
     console.log ("Hello Im your server today");
